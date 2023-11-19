@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #9D76C1;
+    color: #5B0888;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.block a {
+    background: 0;
+    text-decoration: none;
+
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 50px;
+    background: #E5CFF7;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #5B0888;
+
+}
+
+.block:hover {
+    filter: brightness(80%);
+}
